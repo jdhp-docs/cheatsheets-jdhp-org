@@ -7,10 +7,27 @@
 
 // Then add additional custom code here
 
+@mixin cs-header-style {
+    @extend .bg-dark;
+    @extend .text-white;
+    @extend .text-center;
+    @extend .w-100;
+    @extend .p-2;
+}
+
 .cs-header {
-    @include make-header();
+    @include cs-header-style;
+}
+
+
+@mixin cs-footer-style {
+    @extend .bg-dark;
+    @extend .text-white;
+    @extend .text-center;
+    @extend .w-100;
+    @extend .p-2;
 }
 
 .cs-footer {
-    @include make-footer();
+    @include cs-footer-style;
 }
