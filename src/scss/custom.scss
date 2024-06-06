@@ -20,6 +20,65 @@
 }
 
 
+@mixin cs-header-h1-style {
+    @extend .m-0;
+}
+
+.cs-header-h1 {
+    @include cs-header-h1-style;
+}
+
+
+@mixin cs-section-style {
+    @extend .card;
+    @extend .my-2;
+}
+
+.cs-section {
+    @include cs-section-style;
+}
+
+
+@mixin cs-section-h2-style {
+    @extend .text-dark;
+}
+
+.cs-section-h2 {
+    @include cs-section-h2-style;
+}
+
+
+@mixin cs-row-style {
+    @extend .row;
+    @extend .bg-light;
+    @extend .p-2;
+    @extend .my-1;
+    @extend .rounded;
+}
+
+.cs-row {
+    @include cs-row-style;
+}
+
+
+@mixin cs-code-col-style {
+    @extend .col-6;
+}
+
+.cs-code-col {
+    @include cs-code-col-style;
+}
+
+
+@mixin cs-desc-col-style {
+    @extend .col-6;
+}
+
+.cs-desc-col {
+    @include cs-desc-col-style;
+}
+
+
 @mixin cs-footer-style {
     @extend .bg-dark;
     @extend .text-white;
