@@ -1,0 +1,16 @@
+{
+    "name": "jdhp-cheatsheets",
+    "version": "0.0.1",
+    "description": "JDHP's Cheatsheets",
+    "scripts": {
+        "start": "http-server . -p 8080",
+        "sass": "sass --watch src/scss:public/css"
+    },
+    "dependencies": {
+        "bootstrap": "5.3.3"
+    },
+    "devDependencies": {
+        "sass": "1.77.4",
+        "http-server": "14.1.1"
+    }
+}
